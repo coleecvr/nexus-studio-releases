@@ -23,4 +23,4 @@ Nexus Studio never uploads your projects and itself makes no network connections
 * No auto-update.
 
 ## Report a problem
-Open an issue with the **Bug report** template. In Nexus Studio open **Help, then About, then Copy diagnostics** and paste the result into the report. Nothing is sent automatically.
+Open an issue with the **Bug report** template. In Nexus Studio open **About** (Hub footer or editor toolbar), then **Copy diagnostics**, and paste the result into the report. Nothing is sent automatically. Log lines can contain file paths; remove anything you do not want public before posting.

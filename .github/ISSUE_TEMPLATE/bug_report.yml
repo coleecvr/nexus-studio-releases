@@ -3,14 +3,18 @@ description: Something in the Nexus Studio early-access preview did not work
 title: "[Bug] "
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Log lines can contain file paths. Remove anything you do not want public before posting.
   - type: textarea
     id: diagnostics
     attributes:
-      label: Diagnostics
-      description: In Nexus Studio open Help, then About, then Copy diagnostics, and paste the result here.
+      label: Diagnostics (optional)
+      description: In Nexus Studio open About (Hub footer or editor toolbar), then Copy diagnostics, and paste the result here. If you can't install or start Nexus, describe what happened instead.
       render: text
     validations:
-      required: true
+      required: false
   - type: textarea
     id: steps
     attributes:
